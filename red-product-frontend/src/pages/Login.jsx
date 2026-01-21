@@ -93,9 +93,9 @@ const Login = () => {
 
       {/* 3. Pied de page (Liens rapprochés de la carte) */}
       <div className="mt-6 text-center z-10">
-        <link to="/MotDePasseOublie" className="block text-[#FFD700] text-sm font-bold hover:underline mb-2">
+        <Link to="/MotDePasseOublie" className="block text-[#FFD700] text-sm font-bold hover:underline mb-2">
           Mot de passe oublié ?
-        </link>
+        </Link>
         <p className="text-white text-xs">
           Vous n'avez pas de compte ?{" "}
           <Link to="/register" className="text-[#FFD700] font-bold hover:underline">
